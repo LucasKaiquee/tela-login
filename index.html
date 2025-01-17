@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <main>
+        <img src="./assets/images/Login-img.png" alt="Imagem ilustrativa de acesso a área de login" class="img-login">
+
+        <form class="form-login">
+            <h2 class="title-login">Seja bem vindo</h2>
+
+            <div class="login-item">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email">
+
+                <span class="error-msg hidden">Digite um email válido</span>
+            </div>
+            
+            <div class="login-item">
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
+
+                <span class="error-msg hidden">A senha deve ter no mínimo 6 caracteres</span>
+            </div>
+
+            <p>Esqueceu a senha ?</p>
+            <button type="button" class="btn">Entrar</button>
+        </form>
+
+        <div class="login-success hidden">
+            <h2>Login Realizado com sucesso!</h2>
+            <button class="btn">Voltar</button>
+        </div>
+    </main>
+
+    <script src="./assets/js/index.js" type="module"></script>
+</body>
+</html>
