@@ -1,5 +1,3 @@
-import { validateEmail, validatePassword } from "./utils.js";
-
 const form = document.querySelector(".form-login")
 const inputEmail = document.querySelector("#email")
 const inputPassword = document.querySelector("#password")
@@ -9,11 +7,21 @@ const spanError = document.querySelectorAll(".error-msg")
 const loginSuccess = document.querySelector(".login-success")
 const backForm = document.querySelectorAll(".btn")[1]
 
+// Funções de validação de email e senha
+const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
+
+const validatePassword = (password) => {
+    return password.length >= 6;
+}
+
 subimitForm.addEventListener("click", () => {
     const email = inputEmail.value
     const password = inputPassword.value
 
-    // Validando email e senha usando as funções importadas do utils.js
+    // Validando email e senha usando as funções de validação
     const isEmailValid = validateEmail(email);
     const isPasswordValid = validatePassword(password);
 
