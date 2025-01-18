@@ -49,9 +49,9 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 Para executar este projeto em seu ambiente local, siga os passos abaixo:
 
-1. **Clone o repositório**:
+1. **Clone ou baixe o repositório**:
    ```bash
    git clone https://github.com/LucasKaiquee/tela-login.git
    ```
-2. **Acesse a página raiz do projeto**
+2. **Acesse a pasta raiz do projeto**
 3. **Execute o arquivo `index.html`**
