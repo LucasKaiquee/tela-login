@@ -54,4 +54,4 @@ Para executar este projeto em seu ambiente local, siga os passos abaixo:
    git clone https://github.com/LucasKaiquee/tela-login.git
    ```
 2. **Acesse a pasta raiz do projeto**
-3. **Execute o arquivo `index.html`**
+3. **Execute o arquivo `index.html` no seu navegador**
